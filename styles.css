@@ -1,0 +1,101 @@
+body{
+    /*color de fondo*/
+    background-color: blanchedalmond;
+    font-family: 'Montserrat', 'Arial';
+}
+
+.contenedor{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgb(196, 109, 150);
+
+}
+.elemento-lista-lateral{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 40px auto;
+}
+.lista-lateral > li{
+    padding-left: 17px;
+}
+.lista-lateral > li {
+    color: orange;
+}
+.contactos , .hab-tecnicas,.hab-largas{
+    margin-left: 40px;
+}
+.titulo {
+    color: rgb(32, 94, 73);
+}
+
+.contactos{
+    background-color: rgb(195, 140, 240);
+    color:rgb(45, 102, 63);
+}
+.texto-naranja{
+    color:orangered
+}
+.periodo-empresa{
+    color:rgb(145, 145, 88);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+.lista-experiencia{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+}
+.centro-educativo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin:8px 0;
+}
+.titulo-educacion{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin:8px 0;
+}
+
+
+
+.general {
+    /*background-color: rgb(196, 109, 150);*/
+}
+.Proyecto{
+/* background-color: rgb(132, 196, 152);*/
+}
+.laboral{
+/*background-color: blanchedalmond;*/
+}
+.derecho{
+/*background-color:aquamarine; */
+}
+.Empresa-dos{
+/*background-color: rgb(172, 240, 140); */
+}
+.Empresa-tres{
+/*background-color: rgb(140, 220, 240); */
+}
+.educacion{
+/*background-color: rgb(140, 163, 240); */
+}
+.tecnicas{
+    /*background-color: rgb(240, 140, 240); */
+}
+.largas{
+    /*background-color: rgb(240, 140, 157); */
+}
